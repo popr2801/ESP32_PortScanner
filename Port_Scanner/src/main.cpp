@@ -1,8 +1,8 @@
 #include <Arduino.h>
 #include <WiFi.h>
-// put function declarations here:
-const char *ssid = "DIGI-24-221847";
-const char *password = "1849005563";
+
+const char *ssid = "";
+const char *password = "";
 IPAddress targetIP(192, 168, 1, 100);
 int startPort = 20, endPort = 1024;
 void scanPorts(IPAddress targetIP, int startPort, int endPort)
@@ -54,5 +54,5 @@ void setup()
 
 void loop()
 {
-  // put your main code here, to run repeatedly:
+  
 }
